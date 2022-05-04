@@ -11,7 +11,7 @@ function App() {
         <div className="row">
           <Header />
         </div>
-        <div className="row">
+        <div className="row mt-5">
           <Content />
         </div>
         <div className="row">
