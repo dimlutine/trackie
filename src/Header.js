@@ -1,10 +1,13 @@
 function Header() {
-  <div className="container">
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, quaerat!
-      Vero, architecto! Vitae, placeat eum quasi officia ea itaque aliquam.
-    </p>
-  </div>;
+  return (
+    <div className="container-fluid prime-bg">
+      <div className="row">
+        <div className="col">Hamburglar Goes Here</div>
+        <div className="col">Title goes here</div>
+        <div className="col">Profile stuff goes here</div>
+      </div>
+    </div>
+  );
 }
 
 export default Header;

@@ -1,11 +1,21 @@
 function Footer() {
-  <div className="container">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-      modi laudantium velit aliquid illo provident. Ex placeat numquam dolorum
-      fugiat.
-    </p>
-  </div>;
+  return (
+    <div id="footer" className="container">
+      <div className="row">
+        <div className="col-2"></div>
+        <div className="col">
+          <p>Some contact stuff goes here</p>
+        </div>
+        <div className="col">
+          <p>Copyright stuff</p>
+        </div>
+        <div className="col">
+          <p>More</p>
+        </div>
+        <div className="col"></div>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;

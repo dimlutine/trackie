@@ -1,3 +1,32 @@
+/* color pallet
+#eeeeee
+#c6c9c9
+#d7c8f7
+#565062
+#312e2e
+
+*/
+
+.prime-bg {
+  background-color: #d7c8f7
+}
+
+.second-bg {
+  background-color: #565062;
+}
+
+.third-bg {
+  background-color: #c6c9c9;
+}
+
+.white {
+  background-color: #eee;
+}
+
+.black {
+  background-color: #312e2e;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +64,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#footer {
+
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid;
+  left: 0em;
+
+          /* Footer height */
 }
