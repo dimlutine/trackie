@@ -3,15 +3,11 @@ function Footer() {
     <div className="container footer">
       <div className="row">
         <div className="col-2"></div>
-        <div className="col">
-          <p>Some contact stuff goes here</p>
+        <div className="col"></div>
+        <div className="col-4">
+          <p>Copyright &copy; 2022 Jeremy Rowley</p>
         </div>
-        <div className="col">
-          <p>Copyright stuff</p>
-        </div>
-        <div className="col">
-          <p>More</p>
-        </div>
+        <div className="col"></div>
         <div className="col"></div>
       </div>
     </div>

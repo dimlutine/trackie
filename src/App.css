@@ -6,6 +6,9 @@
 #312e2e
 
 */
+.whitetext {
+  color: #eee;
+}
 
 .prime-bg {
   background-color: #d7c8f7
@@ -66,19 +69,93 @@
   }
 }
 
-#footer {
-
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  padding: 15px;
-  border: 1px solid;
-  left: 0em;
-
-          /* Footer height */
+body{
+  background-color: #eee;
 }
+
 
 #header {
   color: #eee;
           /* Footer height */
 }
+
+/* sidebar Nav */
+
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  /* left: 0; */
+  top: 1rem;
+  z-index: 10;
+  cursor: pointer;
+  background-color: #d7c8f7;
+  padding: 0;
+  color: rgb(56, 50, 59);
+border: none;
+background: none;
+left: .5em;
+}
+.navButtonClosed {
+  
+  left: .5em;
+  
+  
+}
+.navButtonOpen {
+  
+  left: 12em;
+  
+}
+
+.menuNav {
+  border-top-right-radius: 2em 20em;
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #e0d9ee;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 5em;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #c6c9c9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 3rem;
+}
+
+.linksOpen {
+ color: rgb(56, 50, 59);  
+}
+.linksOpen a {
+  color: rgb(56, 50, 59);  
+ }
+.linksClosed {
+  color: #e0d9ee;  
+ }
+ .linksClosed a{
+  color: #e0d9ee;  
+ }
+
+ .main-content {
+   margin-top: 10em;
+ }
